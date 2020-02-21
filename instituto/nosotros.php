@@ -25,7 +25,7 @@
 			<div class="col-md-4 mt-3 mb-3">
 				<div class="div-nosotros">
 					<img src="<?php echo $direction; ?>/assets/images/titulos/nos_mision.png" class="mb-3" width="100%">				
-					<!-- <a href="mision.php"> --><button class="btn btn-primary">VER MÁS</button><!-- </a> -->
+					<a href="mision.php"><button class="btn btn-primary">VER MÁS</button></a>
 				</div>
 			</div>
 			<div class="col-md-4 mt-3 mb-3">

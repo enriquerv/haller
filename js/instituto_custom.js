@@ -28,7 +28,7 @@ $(".edu_option").mouseover(function(){
 	$(this).addClass("col-md-7");    
     image = $(this).attr('data-image');
     text = $(this).attr('data-text');
-    $(this).css("background-image", "url('../assets/images/acordeon/"+image+".jpg')");
+    $(this).css("background-image", "url('../assets/images/acordeon/"+image+".png')");
     $("#"+text).removeClass('d-none');
 });
 
@@ -36,7 +36,7 @@ $(".edu_option").mouseleave(function(){
 	$(".edu_option").addClass("col-md-2").removeClass("col-md-7").removeClass("col-md-1").css("opacity", 1);	    
     image = $(this).attr('data-image-r');
     text = $(this).attr('data-text');
-    $(this).css("background-image", "url('../assets/images/acordeon/"+image+".jpg')");
+    $(this).css("background-image", "url('../assets/images/acordeon/"+image+".png')");
     $("#"+text).addClass('d-none');
 });
 

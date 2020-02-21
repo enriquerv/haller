@@ -141,7 +141,7 @@ li.nav-item {
 }
 
 .oferta_edu .maternal{
-	background-image: url('../assets/images/acordeon/maternal.jpg');
+	background-image: url('../assets/images/acordeon/ac_maternal.png');
     background-position: center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -159,7 +159,7 @@ li.nav-item {
 }
 
 .oferta_edu .preescolar{
-	background-image: url('../assets/images/acordeon/preescolar.jpg');
+	background-image: url('../assets/images/acordeon/ac_preescolar.png');
     background-position: center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -178,7 +178,7 @@ li.nav-item {
 }
 
 .oferta_edu .ingles{
-	background-image: url('../assets/images/acordeon/ingles.jpg');
+	background-image: url('../assets/images/acordeon/ac_ingles.png');
     background-position: center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -197,7 +197,7 @@ li.nav-item {
 }
 
 .oferta_edu .primaria{
-	background-image: url('../assets/images/acordeon/primaria.jpg');
+	background-image: url('../assets/images/acordeon/ac_primaria.png');
     background-position: center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -216,7 +216,7 @@ li.nav-item {
 }
 
 .oferta_edu .secundaria{
-	background-image: url('../assets/images/acordeon/secundaria.jpg');
+	background-image: url('../assets/images/acordeon/ac_secu.png');
     background-position: center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -235,7 +235,7 @@ li.nav-item {
 }
 
 .oferta_edu .preparatoria{
-	background-image: url('../assets/images/acordeon/preparatoria.jpg');
+	background-image: url('../assets/images/acordeon/ac_prepa.png');
     background-position: center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;

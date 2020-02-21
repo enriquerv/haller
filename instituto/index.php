@@ -27,7 +27,7 @@
 
 	<section class="oferta_edu container-fluid" id="ofed" style="margin-top: 100px">
 		<div class="row">
-			<div class="col-md-2 edu_option maternal" data-image='maternal_d' data-image-r="maternal" data-text="message_mat">
+			<div class="col-md-2 edu_option maternal" data-image='ac_maternal' data-image-r="ac_maternal" data-text="message_mat">
 				<div class="text">Maternal</div>
 				<div class="d-none message" id="message_mat">
 					En instituto Rafael Haller nos ocupamos de que los más pequeños del hogar
@@ -42,7 +42,7 @@
 					
 				</div>
 			</div>
-			<div class="col-md-2 edu_option preescolar" data-image='preescolar_d' data-image-r="preescolar" data-text="message_pre">
+			<div class="col-md-2 edu_option preescolar" data-image='ac_preescolar' data-image-r="ac_preescolar" data-text="message_pre">
 				<div class="text">Preescolar</div>
 				<div class="d-none message" id="message_pre">
 					Somos una institución educativa que promueve el desarrollo integral de los niños a través de
@@ -58,7 +58,7 @@
 					
 				</div>
 			</div>
-			<div class="col-md-2 edu_option ingles" data-image='ingles_d' data-image-r="ingles" data-text="message_ing">
+			<div class="col-md-2 edu_option ingles" data-image='ac_ingles' data-image-r="ac_ingles" data-text="message_ing">
 				<div class="text">1st English</div>
 				<div class="d-none message" id="message_ing">
 					El Instituto Rafael Haller brinda un año de inglés como parte de nuestro sistema bilingüe. Los niños
@@ -73,7 +73,7 @@
 					
 				</div>
 			</div>
-			<div class="col-md-2 edu_option primaria" data-image='primaria_d' data-image-r="primaria" data-text="message_pri">
+			<div class="col-md-2 edu_option primaria" data-image='ac_primaria' data-image-r="ac_primaria" data-text="message_pri">
 				<div class="text">Primaria</div>
 				<div class="d-none message" id="message_pri">
 					En este nivel se propone contribuir a la formación integral de los niños, enmarcada dentro
@@ -87,7 +87,7 @@
 					
 				</div>
 			</div>
-			<div class="col-md-2 edu_option secundaria" data-image='secundaria_d' data-image-r="secundaria" data-text="message_sec">
+			<div class="col-md-2 edu_option secundaria" data-image='ac_secu' data-image-r="ac_secu" data-text="message_sec">
 				<div class="text">Secundaria</div>
 				<div class="d-none message" id="message_sec">
 					El plan de estudios de este nivel se centra en los conocimientos, en las competencias y en la
@@ -100,7 +100,7 @@
 					
 				</div>
 			</div>
-			<div class="col-md-2 edu_option preparatoria" data-image='preparatoria_d' data-image-r="preparatoria" data-text="message_prp"> 
+			<div class="col-md-2 edu_option preparatoria" data-image='ac_prepa' data-image-r="ac_prepa" data-text="message_prp"> 
 				<div class="text">Preparatoria</div>
 				<div class="d-none message" id="message_prp">
 					La preparatoria en Instituto Haller propicia la excelencia académica del alumnado, a través

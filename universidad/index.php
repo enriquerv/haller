@@ -40,7 +40,9 @@
 				</a>
 			</div>
 			<div class="col-md-4 mt-5" style="cursor: pointer;">
-				<img src="<?php echo $direction; ?>/assets/images/uni/icono_virtual.png" style="width: 100%;">
+				<a href="virtual.php">
+					<img src="<?php echo $direction; ?>/assets/images/uni/icono_virtual.png" style="width: 100%;">
+				</a>
 			</div>
 		</div>
 	</section>

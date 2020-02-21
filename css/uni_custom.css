@@ -391,9 +391,9 @@ li.nav-item {
     text-align: center;
 }
 .div-nosotros button{
-    position: absolute;
-    bottom: 35px;
-    transform: translateX(-50%);
+    position: relative;
+    bottom: 115px;
+    /* transform: translateX(-50%); */
     font-size: 14px;
     padding: 5px 20px;
     background: #df0124;

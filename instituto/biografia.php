@@ -6,7 +6,7 @@
 ?>
 
 <section>
-	<img src="<?php echo $direction; ?>/assets/images/titulos/titulo_biografia.jpg" style="width: 100%;">
+	<img src="<?php echo $direction; ?>/assets/images/new/titulo_biografia.png" style="width: 100%;">
 </section>
 
 <section>
