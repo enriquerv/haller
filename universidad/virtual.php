@@ -1,5 +1,5 @@
 <?php  
-	$active = "DERECHO";
+	$active = "CAMPUS VIRTUAL";
 	include('../php/init.php');
 	include('../widgets/head_uni.php');
 	include('../widgets/header_uni.php');
@@ -11,71 +11,124 @@
 
 <section>
 	<div class="container mt-5 mb-5" style="font-weight: bold;">
-		<b>Objetivo de la Licenciatura:</b><br>
+		<iframe src="https://app.box.com/embed/s/y041u18rw8dduhoye42l?sortColumn=date&view=list" width="500" height="400" frameborder="0" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>
+	</div>
+	<div id="lms_widget_container"> 
+	  <div id="lms_widget_header">
+	    <h1>Online School</h1>
+	  </div>
+	  
+	  <div id="lms_widget_inner">
 
-		Aplicar los conocimientos jurídicos a la defensa de los derechos de las personas.<br>
 
-		Contextualizar el derecho como una ciencia social que debe responder a las condiciones y
-		dinámica de los individuos y al orden jurídico de la convivencia republicana<br>
+	    <form name="form1" method="post" action="https://hallerizcalli.neolms.com/log_in/submit" target="_blank">
+	      <label for="userid">User ID</label>
+	      <input type="text" name="userid" id="userid" class="lms_widget_border">
 
-		Enfrentar las demandas de reconocimiento e investigación de las condiciones y problemas
-		propios de una sociedad dinámica<br>
+	      <label for="password">Password</label>
+	      <a href="http://hallerizcalli.neolms.com/log_in/forgot_password" target="_blank">(forgot?)</a><br>
+	      <input type="password" name="password" id="password" class="lms_widget_border"><br>
 
-		Identificar en las leyes y sus reglamentos las herramientas necesarias para coadyuvar a la
-		convivencia pacífica y la preservación del estado de derecho.<br><br>
+	      <button type="submit" value="Submit">Log in</button>
 
-		<b>Perfil del Egresado:</b><br>
-		Los egresados del CENTRO UNIVERSITARIO HALLER, deben poseer contenidos universales,
-		significativos vigentes e innovadores en las áreas de Derecho público y privado, específicamente
-		en Derecho Civil, Penal, , Administrativo, Laboral, Fiscal, Mercantil, Internacional y otros derechos
-		especiales, abordando ampliamente los conceptos doctrinarios y la técnica procesal
-		correspondiente, los niveles de posesión de estos conocimientos serán lo suficientemente
-		profundos para colocarlos en condiciones de reaccionar eficazmente ante las exigencias de una
-		sociedad cada vez más informada y dinámica.<br><br>
-
-		<b>Habilidades:</b><br>
-		 Identificar las fuentes de estudio de derecho<br>
-		 Analizar e interpretar la norma jurídica<br>
-		 Conceptualizar la estructura jurídica y del estado mexicano<br>
-		 Investigar sobre proceso legislativo<br>
-		 Analizar, interpretar y aplicar la ley y sus códigos<br>
-		 Postular el derecho a través de la técnica procesal correspondiente<br>
-		 Representar y asesorar legalmente a las personas ante la corte y los tribunales<br>
-		 Representa y asesorar legalmente a entidades publicas<br>
-		 Evaluar, junto con otros profesionistas, las condiciones de orden legal de las empresas
-		privadas<br>
-		 Administrar eficientemente el despacho jurídico<br>
-		 Ejercer su profesión apegado a un código de ética<br><br>
-
-		<b>Actitudes:</b><br>
-		 El egresado deberá manifestar una actitud de servicio, responsabilidad, ética profesional y
-		laboral, asumirá actitudes reflexivas que promuevan beneficios para las empresas o
-		instituciones, expresara actitudes encaminadas con el respeto a la naturaleza y al medio
-		ambiente, asumiendo una práctica profesional honesta y respetuosa de los derechos
-		humanos<br><br>
-
-		<b>Como egresado de la carrera de la Lic. en Comercio Internacional y Aduanas ,
-		podrás trabajar en los siguientes rubro:</b><br>
-
-		 Abogado<br>
-		 Negociador<br>
-		 Mediador<br>
-		 Director de despacho Jurídico<br>
-		 Litigante<br>
-		 Asociado en despacho<br>
-		 Asesor jurídico<br>
-		 Investigador<br>
-		 Ministro de la Suprema Corte de Justicia<br>
-		 Magistrado<br>
-		 Juez<br>
-		 Federal Publico<br>
-		 Notario o corredor publico<br>
-		 Director del departamento legal de una empresa privada<br>
+	      <input type="checkbox" name="remember" id="remember">
+	      <label for="remember">Remember me?</label>
+	    </form>
+	  </div>
 	</div>
 </section>
 
 
+<style type="text/css">
+    @import url(https://fonts.googleapis.com/css?family=Roboto:300); /* include Roboto font from Google fonts */
 
+    #lms_widget_container {
+      width: 300px; /* width of box */
+      height: auto;
+      border: 1px solid #c6c5c5; /* border thickness, border style, border color */
+      background:#fff; /* background color */
+      font-family: 'Roboto', Helvetica, Arial, sans-serif; /* font family */
+      text-align:left; /* general text alignment */
+      font-size:16px; /* general font size */
+      color:#222; /* general text color */
+      border-radius: 4px
+    }
+
+    #lms_widget_header {
+      background: #c0c1c1; /* background color of heading section */
+      width: 100%; /* width of widget */
+      border-bottom: 1px solid #c6c5c5; /* header bottom border thickness, style and colour */
+    }
+
+    #lms_widget_container h1 {
+      padding: 15px 8px 14px 8px; /* positioning of header */
+      font-size: 19px; /* font size */
+      font-weight: normal; /* font weight */
+      margin: 0;
+      color:#fff; /* text color */
+      text-align:center; /* text alignment */
+    }
+
+    #lms_widget_inner {
+      margin: 25px;  /* widget inner spacing */
+    }
+
+    #lms_widget_container input[type="text"], #lms_widget_container input[type="password"] {
+      margin: 8px 0 18px; /* space around input boxes */
+      padding: 12px 10px 11px; /* space within input boxes */
+      color:#222; /* input text color */
+      font-family: 'Roboto', Helvetica, Arial, sans-serif; /* font family */
+      font-size:16px; /* font size */
+      border-radius: 5px; /* rounded corner size */
+      box-shadow: inset 3px 3px 3px rgba(0,0,0,0.1); /* inner shadow */
+      width: 100%; /* width */
+      -moz-box-sizing: border-box; /* don't adjust */
+      box-sizing: border-box; /* don't adjust */
+    }
+
+    .lms_widget_border {
+      border: 1px #c6c5c5 solid; /* border around input field, width, color, style */
+    }
+
+    #lms_widget_container a {
+      color: #a7a7a7; /* link color */
+      font-size: 15px; /* font size */
+    }
+
+    #lms_widget_container a:hover {
+      color:#5e5f5f; /* rollover link color */
+      text-decoration:underline;
+    }
+
+    #lms_widget_container button {
+      outline:none;
+      border: 0;
+      color: #fff;  /* color of button text */
+      margin: 0 0 14px 0; /* space around button */
+      padding: 12px 3px; /* space within button */
+      display: block;
+      width: 100%;  /* width */
+      font-family: 'Roboto', Helvetica, Arial, sans-serif; /* font family */
+      font-size:16px; /* font size */
+      background: #c0c1c1; /* background color */
+      border-radius: 5px; /* rounded corner size */
+      cursor: pointer;
+    }
+
+    #lms_widget_container button:hover {
+      background: #b4b4b4; /* button rollover color */
+    }
+
+    #lms_widget_container input[type="checkbox"] {
+      position: relative; /* checkbox alignment */
+      top: -1px; /* checkbox top alignment */
+      margin-right: 5px;  /* gap to the right of the checkbox */
+    }
+
+    #lms_widget_container label[for="remember"] {
+      font-size: 15px; /* 'remember me' font size */
+    }
+</style>
 
 <?php  
 	include('../widgets/footer_uni.php');
