@@ -3,7 +3,7 @@
 
 $( document ).ready(function() {
     loc = $(location).attr('pathname');
-    if(loc == '/instituto/index.php' || loc == '/instituto/'){
+    if(loc == '/instituto/index.php' || loc == '/instituto/' || loc == '/test/instituto/index.php' || loc == '/test/instituto/'){
         $('#intVideo').get(0).play();
         var video = document.getElementById('intVideo');
 

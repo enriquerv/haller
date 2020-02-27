@@ -25,24 +25,20 @@
 
 		<div class="row mt-5 mb-5">
 			<div class="col-md-3 text-center">
-				<a href="https://campus.chamilo.org/courses/PREESCOLARHALLER/?id_session=0" target="_blank">
-					<img src="<?php echo $direction; ?>/assets/images/chamilo/plata01.png" width="100%"><br>				
-				</a>	
+				<p><img src="<?php echo $direction; ?>/assets/images/chamilo/plata01.png" width="75%"></p>
+				<?php include('PREESCOLAR.html') ?>	
 			</div>
 			<div class="col-md-3 text-center">
-				<a href="https://campus.chamilo.org/courses/HALLER/?id_session=0" target="_blank">
-					<img src="<?php echo $direction; ?>/assets/images/chamilo/plata02.png" width="100%"><br>				
-				</a>	
+				<p><img src="<?php echo $direction; ?>/assets/images/chamilo/plata02.png" width="75%"></p>
+				<?php include('PRIMARIA.html') ?>		
 			</div>
 			<div class="col-md-3 text-center">
-				<a href="http://institutohaller.edu20.org/" target="_blank">
-					<img src="<?php echo $direction; ?>/assets/images/chamilo/plata03.png" width="100%"><br>				
-				</a>	
+				<p><img src="<?php echo $direction; ?>/assets/images/chamilo/plata03.png" width="75%"></p>
+				<?php include('SECUNDARIA.html') ?>		
 			</div>
 			<div class="col-md-3 text-center">
-				<a href="http://institutohaller.edu20.org/" target="_blank">
-					<img src="<?php echo $direction; ?>/assets/images/chamilo/plata04.png" width="100%"><br>				
-				</a>	
+				<p><img src="<?php echo $direction; ?>/assets/images/chamilo/plata04.png" width="75%"></p>
+				<?php include('PREPATEPO.html') ?>		
 			</div>
 		</div>
 		

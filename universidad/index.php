@@ -13,33 +13,33 @@
 			Your browser does not support the video tag.
 		</video>
 		<div id="img_last">
-			<img src="<?php echo $direction; ?>/assets/images/fin_video_uni.jpg" width="100%">
+			<img src="<?php echo $direction; ?>/assets/images/new/img_inicio_2.png" width="100%">
 		</div>
 	</section>
 
-	<section class="container mt-5 mb-5" style="margin: 100px !important;">
+	<section class="mt-5 mb-5" style="margin: 100px !important;">
 		<div class="row">
-			<div class="col-md-4 mt-5" style="cursor: pointer;">
-				<a href="diplomados.php">
-					<img src="<?php echo $direction; ?>/assets/images/uni/icono_diplomado.png" style="width: 100%;">
-				</a>
-			</div>
-			<div class="col-md-4 mt-5" style="cursor: pointer;">
-				<a href="idiomas.php">
-					<img src="<?php echo $direction; ?>/assets/images/uni/icono_idioma.png" style="width: 100%;">
-				</a>
-			</div>
-			<div class="col-md-4 mt-5" style="cursor: pointer;">
+			<div class="col-md-4 mt-5 text-center" style="cursor: pointer;">
 				<a href="licenciaturas.php">
 					<img src="<?php echo $direction; ?>/assets/images/uni/icono_licenciatura.png" style="width: 100%;">
 				</a>
 			</div>
-			<div class="col-md-4 mt-5" style="cursor: pointer;">
+			<div class="col-md-4 mt-5 text-center" style="cursor: pointer;">
+				<a href="diplomados.php">
+					<img src="<?php echo $direction; ?>/assets/images/uni/icono_diplomado.png" style="width: 100%;">
+				</a>
+			</div>
+			<div class="col-md-4 mt-5 text-center" style="cursor: pointer;">
+				<a href="idiomas.php">
+					<img src="<?php echo $direction; ?>/assets/images/uni/icono_idioma.png" style="width: 100%;">
+				</a>
+			</div>
+			<div class="col-md-4 mt-5 text-center" style="cursor: pointer;">
 				<a href="sobrecargo.php">
 					<img src="<?php echo $direction; ?>/assets/images/uni/icono_sobrecargo.png" style="width: 100%;">
 				</a>
 			</div>
-			<div class="col-md-4 mt-5" style="cursor: pointer;">
+			<div class="col-md-4 mt-5 text-center" style="cursor: pointer;">
 				<a href="virtual.php">
 					<img src="<?php echo $direction; ?>/assets/images/uni/icono_virtual.png" style="width: 100%;">
 				</a>

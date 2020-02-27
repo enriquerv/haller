@@ -51,9 +51,12 @@
 				<img src="<?php echo $direction; ?>/assets/images/new/sob_03.jpg" width="100%">
 			</div>
 
-			<div class="col-md-12 pt-5">	
-				<iframe width="100%" height="400px" src="https://www.youtube.com/embed/BggrpKfqh1c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			</div>
+			<section class="inst_video" id='contVideo' style="margin-top: 150px;">
+				<video id="instVideo" controls>
+					<source src="<?php echo $direction; ?>/assets/videos/sobrecargo.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</section>
 
 		</div>
 	</div>
@@ -105,35 +108,36 @@
 		</div>
 	</div>
 
-	<div class="container">	
+	<div class="container pt-5 pb-5">	
 		<div class="row pt-5">
 			<div class="col-md-6">
 				<h2>REQUISITOS HALLER</h2>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam laudantium ipsam velit expedita nihil, rerum officiis voluptates eius similique commodi ratione facilis laboriosam esse accusantium voluptatem temporibus rem voluptate, fugiat.
-				</p>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam laudantium ipsam velit expedita nihil, rerum officiis voluptates eius similique commodi ratione facilis laboriosam esse accusantium voluptatem temporibus rem voluptate, fugiat.
-				</p>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam laudantium ipsam velit expedita nihil, rerum officiis voluptates eius similique commodi ratione facilis laboriosam esse accusantium voluptatem temporibus rem voluptate, fugiat.
-				</p>	
+				<li>Acta de nacimiento</li>
+				<li>Certificado de Bachillerato o Equivalente</li>
+				<li>2 Fotografías tamaño infantil a color</li>
+				<li>Nacionalidad Mexicana</li>
+				<li><a href="https://ts.sct.gob.mx/cis/pg00000002.jsp" target="_blank">Constancia de Aptitud Psicofisica</a></li>
+				<li>2 Fotografías tamaño pasaporte</li>
 			</div>		
 			<div class="col-md-6">
 				<img src="<?php echo $direction; ?>/assets/images/new/sob_04.jpg" width="100%">
 			</div>
 
 			<div class="col-md-6 pt-5">
-				<h2>UNIFORME HALLER</h2>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam laudantium ipsam velit expedita nihil, rerum officiis voluptates eius similique commodi ratione facilis laboriosam esse accusantium voluptatem temporibus rem voluptate, fugiat.
-				</p>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam laudantium ipsam velit expedita nihil, rerum officiis voluptates eius similique commodi ratione facilis laboriosam esse accusantium voluptatem temporibus rem voluptate, fugiat.
-				</p>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam laudantium ipsam velit expedita nihil, rerum officiis voluptates eius similique commodi ratione facilis laboriosam esse accusantium voluptatem temporibus rem voluptate, fugiat.
-				</p>	
+				<h2 class="pt-2">UNIFORME HALLER</h2>
+
+				<h4 class="pt-2 pb-2">MUJERES</h4>
+				<li>Traje sastre azul marino</li>
+				<li>Blusa blanca</li>
+				<li>Mascada roja</li>
+				<li>Medias de compresión color natural</li>
+				<li>Zapatillas lisas negras de piel , tacón mínimo de 5cm</li>
+
+				<h4 class="pt-2 pb-2">HOMBRES</h4>
+				<li>Traje sastre azul marino</li>
+				<li>Camisa blanca</li>
+				<li>Corbata roja</li>
+				<li>Zapatos de agujeta negros</li>
 			</div>		
 			<div class="col-md-6 pt-5">
 				<img src="<?php echo $direction; ?>/assets/images/new/sob_05.jpg" width="100%">
