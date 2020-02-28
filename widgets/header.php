@@ -46,9 +46,12 @@
         <ul class="nav navbar-nav text-nowrap flex-row mx-md-auto order-1 order-md-2">
 
             <li class="nav-item">
-            	<a class="navbar-brand navbar-brand-centered" href="#">
+            	<p class="navbar-brand navbar-brand-centered">
+                    <a href="<?php echo $direction; ?>/universidad">
+                        <img src="<?php echo $direction; ?>/assets/images/escudo2Bco.png" class="escudo2">
+                    </a>
             		<img src="<?php echo $direction; ?>/assets/images/escudoBco.png" width="100px">
-            	</a>
+            	</p>
             	
             </li>
 
@@ -71,3 +74,12 @@
         </div>
     </div>
 </nav>
+
+<style>
+    .escudo2{
+        width: 35px;
+        position: absolute;
+        top: -25px;
+        left: 110px;
+    }
+</style>
