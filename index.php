@@ -32,12 +32,12 @@
 				</div>
 				<div class="back" id="flipBack1">
 					<p class="p_tit2">Instituto Rafael Haller</p>
-					<p class="p_tit text-left"><i class="fa fa-circle"></i>Maternal</p>
-					<p class="p_tit text-left"><i class="fa fa-circle"></i>Preescolar</p>
-					<p class="p_tit text-left"><i class="fa fa-circle"></i>Primero de Inglés</p>
-					<p class="p_tit text-left"><i class="fa fa-circle"></i>Primaria</p>
-					<p class="p_tit text-left"><i class="fa fa-circle"></i>Secundaria</p>
-					<p class="p_tit text-left"><i class="fa fa-circle"></i>Preparatoria</p>
+					<p class="p_tit text-left"><i class="fa fa-circle circle-i"></i>Maternal</p>
+					<p class="p_tit text-left"><i class="fa fa-circle circle-i"></i>Preescolar</p>
+					<p class="p_tit text-left"><i class="fa fa-circle circle-i"></i>Primero de Inglés</p>
+					<p class="p_tit text-left"><i class="fa fa-circle circle-i"></i>Primaria</p>
+					<p class="p_tit text-left"><i class="fa fa-circle circle-i"></i>Secundaria</p>
+					<p class="p_tit text-left"><i class="fa fa-circle circle-i"></i>Preparatoria</p>
 
 					<p class="p_tit" style="margin: 20px !important;">
 					 	<a href="<?php echo $direction; ?>/instituto">
@@ -54,11 +54,11 @@
 				</div>	
 				<div class="back" id="flipBack2">
 					<p class="p_tit2">Centro Universitario Haller</p>
-					<p class="p_tit text-left"><i class="fa fa-circle"></i>Licenciaturas</p>
-					<p class="p_tit text-left"><i class="fa fa-circle"></i>Diplomados</p>
-					<p class="p_tit text-left"><i class="fa fa-circle"></i>Idiomas</p>
-					<p class="p_tit text-left"><i class="fa fa-circle"></i>Sobrecargo</p>
-					<p class="p_tit text-left"><i class="fa fa-circle"></i>Plataforma Educativa</p>
+					<p class="p_tit text-left"><i class="fa fa-circle circle-u"></i>Licenciaturas</p>
+					<p class="p_tit text-left"><i class="fa fa-circle circle-u"></i>Diplomados</p>
+					<p class="p_tit text-left"><i class="fa fa-circle circle-u"></i>Idiomas</p>
+					<p class="p_tit text-left"><i class="fa fa-circle circle-u"></i>Sobrecargo</p>
+					<p class="p_tit text-left"><i class="fa fa-circle circle-u"></i>Plataforma Educativa</p>
 
 					<p class="p_tit" style="margin: 20px !important;">
 					 	<a href="<?php echo $direction; ?>/universidad">
@@ -147,6 +147,7 @@
 				font-size: 14px;
 			    color: red;
 			    margin: 0px 16px 0 0;
+			    display: none;
 			}
 
 			
@@ -166,16 +167,20 @@
 
 			$("#flipFront1").mouseenter(function(){
 				$("#flip1").click();
+				$(".circle-i").css('display', 'inline');
 			});
 			$("#flipBack1").mouseleave(function(){
 				$("#flip1").click();
+				$(".circle-i").css('display', 'none');
 			});
 
 			$("#flipFront2").mouseenter(function(){
 				$("#flip2").click();
+				$(".circle-u").css('display', 'inline');
 			});
 			$("#flipBack2").mouseleave(function(){
 				$("#flip2").click();
+				$(".circle-u").css('display', 'none');
 			});
 		</script>
 	</body>
